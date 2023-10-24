@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin: auto;
+    width: 90vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+#clockBox{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    padding: 3px;
+}
+
+#clock {
+    padding: 10px 15px;
+    background-color: black;
+}
+
+#timeElem {
+    padding: 0px;
+    margin: 0px;    
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    width: 280px;
+    font-weight: 700;
+}
+
+#buttonBox{
+    padding: 5px 0px;
+}
+
+#lapBox{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+}
+
+.buttons{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.nums{
+    margin: 0px 4px;
+}
+
+#resume{
+    display: none;
+}
+
+#pause{
+    display: none;
+}
+
+#restart{
+    display: none;
+}
+
+.buttons{
+    font-size: 40px;
+}
+
+@media (max-width:500px){
+    #timeElem{
+        font-size: 40px;
+        width: 180px;
+    }
+    .buttons{
+        font-size: 30px;
+    }
+    #lapBox{
+        font-size: 20px;
+    }
+}
