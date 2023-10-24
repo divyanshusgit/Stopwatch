@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/b1c9da7fe8.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="clockBox">
+            <div id="clock">
+                <div class="contents" id="timeElem"><span class="nums" id="min">00</span>:<span class="nums"
+                        id="sec">00</span>:<span class="nums" id="milsec">00</span></div>
+            </div>
+        </div>
+        <div id="buttonBox">
+            <div class="buttons" id="start"><i class="fa-solid fa-circle-play"></i></div>
+            <div class="buttons" id="pause"><i class="fa-solid fa-circle-pause"></i></div>
+            <div class="buttons" id="resume"><i class="fa-solid fa-circle-play"></i></div>
+            <div class="buttons" id="restart"><i class="fa-solid fa-rotate"></i></div>
+        </div>
+        <div id="lapBox">Lap - <span id="lapElem">00:00:00</span></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
